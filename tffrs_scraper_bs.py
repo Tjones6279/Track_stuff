@@ -3,9 +3,16 @@ import requests as r
 import pandas as pd
 import re
 import os
-url= 'https://www.tfrrs.org/results/xc/13454/Spartan_Classic_-_Aurora_Unversity'
+#url= 'https://www.tfrrs.org/results/xc/13454/Spartan_Classic_-_Aurora_Unversity'
 #url = 'https://www.tfrrs.org/top_performances/IL_college_m_Wheaton_IL.html?list_hnd=2278&season_hnd=414'
 #url = 'https://www.tfrrs.org/lists/2209/CCIW_Outdoor_Performance_List/2018/o'
+url = 'https://www.tfrrs.org/results/xc/14520/NCAA_Division_III_Midwest_Region_Cross_Country_Championships'
+#url = 
+#url =
+#url =
+#url =
+#url =
+#url =
 html_doc = r.get(url).text
 soup = BeautifulSoup(html_doc, 'html.parser')
 
